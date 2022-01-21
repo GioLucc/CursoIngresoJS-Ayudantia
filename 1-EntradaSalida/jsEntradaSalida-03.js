@@ -7,7 +7,7 @@ function mostrar()
 
 	askedName = document.getElementById("txtIdNombre").value;
 
-	if(isNaN(askedName) == true)
+	if(isNaN(askedName))
 	{
 		alert(askedName);
 	}
@@ -17,5 +17,3 @@ function mostrar()
 	}
 
 }
-
-
