@@ -16,7 +16,5 @@ function mostrar()
 	{
 		alert("Se ha pedido que ingrese un nombre y has ingresado un numero!");
 	}
-
-	
 }
 

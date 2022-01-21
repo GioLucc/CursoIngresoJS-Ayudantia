@@ -4,6 +4,20 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	alert("ok");
+
+	var nameAsk;
+
+	nameAsk = prompt ("Please enter a name!");
+
+	if(isNaN(nameAsk))
+	{
+		alert("Thanks for following instructions!");
+		document.getElementById("txtIdNombre").value = nameAsk;
+	}
+	else
+	{
+		alert("Try again putting a correct name!");
+	}
+
 }
 
