@@ -5,5 +5,22 @@ mostrar el resto entre el dividendo y el divisor.
 ej.: "El resto es 0 ."*/
 function SacarResto()
 {
-	alert("ok");
+	var firstNumber;
+	var secondNumber;
+	var restOfDivision;
+
+	firstNumber = document.getElementById("txtIdNumeroDividendo").value;
+	secondNumber = document.getElementById("txtIdNumeroDivisor").value;
+
+	if(!isNaN(firstNumber) && !isNaN (secondNumber))
+	{
+		alert("Thanks for placing the asked numbers correctly!")
+
+		firstNumber = parseInt(firstNumber);
+		secondNumber = parseInt(secondNumber);
+
+		result = firstNumber % secondNumber;
+		
+		alert(result);
+	}
 }
