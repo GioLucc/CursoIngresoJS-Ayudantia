@@ -18,6 +18,5 @@ function mostrar()
 	{
 		alert("Try again putting a correct name!");
 	}
-
 }
 
