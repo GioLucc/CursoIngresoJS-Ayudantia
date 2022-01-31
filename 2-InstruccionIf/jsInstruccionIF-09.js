@@ -1,6 +1,10 @@
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
 
-}//FIN DE LA FUNCIÓN
+	var randomNumber;
+
+	randomNumber = document.getElementById("").value;
+
+	randomNumber = Math.random(11)+1;
+
+}
