@@ -5,7 +5,7 @@ function mostrar()
 {
 	var askedName;
 
-	askedName = document.getElementById("txtIdNombre").value;
+	askedName = document.getElementByid("txtIdNombre").value;
 
 	if(isNaN(askedName))
 	{

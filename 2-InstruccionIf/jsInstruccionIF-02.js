@@ -1,5 +1,6 @@
 function mostrar()
-{		
+{	
+	/*	
 	var enterAge;
 	
 	enterAge = document.getElementById("txtIdEdad").value;
@@ -30,5 +31,17 @@ function mostrar()
 	{
 		alert("You've entered something different than a number in the age box! Try again");
 	}
+	*/
+	var edadIngresada;
+
+	edadIngresada=document.getElementById('txtIdEdad');
+
+	edadIngresada=parseInt(edadIngresada.value);
+	
+
+	if(edadIngresada==15){
+		alert("Niña bonita");
+	}
+	txtIdEdad.value="";
 
 }//FIN DE LA FUNCIÓN

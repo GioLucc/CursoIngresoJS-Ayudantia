@@ -4,15 +4,15 @@ transformarlos a enteros (parseInt),realizar la operación correcta y
 mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 
+var firstNumber;
+var secondNumber;
+var concatenatedOperation;
+
 alert("Welcome to the Admission Course Calculator");
 alert("Please insert two numbers in the proper spaces");
 alert("After inserting numbers you can do whatever operation you would like!");
 function sumar()
 {
-	var firstNumber;
-	var secondNumber;
-	var concatenatedOperation;
-
 	firstNumber = document.getElementById("txtIdNumeroUno").value;
 	secondNumber = document.getElementById("txtIdNumeroDos").value;
 
@@ -35,16 +35,12 @@ function sumar()
 
 function restar()
 {
-	var firstNumber;
-	var secondNumber;
-	var concatenatedOperation;
-
 	firstNumber = document.getElementById("txtIdNumeroUno").value;
 	secondNumber = document.getElementById("txtIdNumeroDos").value;
 
 	if(!isNaN(firstNumber) && !isNaN (secondNumber))
 	{
-		alert("Thanks for placing the asked numbers correctly!")
+		alert("Thanks for placing the asked numbers correctly!");
 
 		firstNumber = parseInt(firstNumber);
 		secondNumber = parseInt(secondNumber);
@@ -57,14 +53,11 @@ function restar()
 	{
 		alert("One of the two asked numbers wasn't a number, please check it and retry!")
 	}
+
 }
 
 function multiplicar()
 { 
-	var firstNumber;
-	var secondNumber;
-	var concatenatedOperation;
-
 	firstNumber = document.getElementById("txtIdNumeroUno").value;
 	secondNumber = document.getElementById("txtIdNumeroDos").value;
 
@@ -87,10 +80,6 @@ function multiplicar()
 
 function dividir()
 {
-	var firstNumber;
-	var secondNumber;
-	var concatenatedOperation;
-
 	firstNumber = document.getElementById("txtIdNumeroUno").value;
 	secondNumber = document.getElementById("txtIdNumeroDos").value;
 
